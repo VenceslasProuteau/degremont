@@ -1,0 +1,56 @@
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.App {
+  padding: 3rem;
+  display: flex;
+}
+
+.Header {
+  text-transform: uppercase;
+  font-style: italic;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.Nav {
+  font-size: 1.8rem;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.Nav__item {
+  list-style-type: none;
+  text-decoration: none;
+  color: black;
+}
+
+.Nav__item > a {
+  text-decoration: none;
+  color: black;
+}
+
+.Sidebar {
+  margin-top: 3rem;
+}
+
+.Lookbook {
+  margin-top: 6.5rem;
+}
+
+.Main {
+  display: flex;
+  flex: 1;
+}
+
+.Content {
+  display: flex;
+  flex: 1;
+}
